@@ -1,0 +1,117 @@
+.link-item {
+  text-decoration: none;
+}
+.job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+.logo-title-location-container {
+  display: flex;
+  flex-direction: column;
+}
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 24px;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 0;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+}
+.rating-icon {
+  color: #fbbf24;
+  font-size: 16px;
+  margin-right: 12px;
+}
+.rating-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.location-package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-employee-container {
+  display: flex;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  padding-left: 6px;
+}
+.location-icon {
+  color: #ffffff;
+  font-size: 24px;
+  margin-right: 6px;
+}
+.brief-case-icon {
+  color: #ffffff;
+  font-size: 24px;
+  margin-right: 12px;
+}
+.location-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.package-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.employee-type-container {
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+}
+.employee-type-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.line {
+  color: #7e858e;
+  width: 100%;
+}
+.description-heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 0;
+}
+.description-text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,86 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 48px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: cover;
+  height: 90vh;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    align-items: flex-start;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+    padding-left: 120px;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1000px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    width: 50%;
+    align-items: flex-start;
+  }
+}
+
+.home-heading {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 62px;
+    text-align: left;
+    line-height: 1.2;
+  }
+}
+
+.home-description {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 26px;
+    text-align: left;
+  }
+}
+
+.home-button {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #4f46e5;
+  margin-top: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 12px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-button {
+    font-size: 16px;
+    width: 160px;
+  }
+}
